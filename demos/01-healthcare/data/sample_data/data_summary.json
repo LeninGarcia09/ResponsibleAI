@@ -1,0 +1,40 @@
+{
+  "total_patients": 10000,
+  "demographics": {
+    "age_groups": {
+      "31-50": 3533,
+      "51-70": 2523,
+      "18-30": 2476,
+      "70+": 1468
+    },
+    "genders": {
+      "Male": 5029,
+      "Female": 4971
+    },
+    "ethnicities": {
+      "White": 6009,
+      "Hispanic": 1807,
+      "Black": 1342,
+      "Asian": 537,
+      "Other": 305
+    }
+  },
+  "conditions": {
+    "gastroesophageal_reflux": 3143,
+    "anxiety_disorder": 2293,
+    "acute_coronary_syndrome": 1957,
+    "pneumonia": 1874,
+    "pulmonary_embolism": 733
+  },
+  "severity_distribution": {
+    "low": 5436,
+    "high": 2690,
+    "medium": 1874
+  },
+  "model_performance": {
+    "overall_accuracy": 0.812,
+    "average_confidence": 0.672,
+    "high_severity_accuracy": 0.903
+  },
+  "generation_timestamp": "2026-01-23T16:26:09.365114"
+}

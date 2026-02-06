@@ -1,0 +1,39 @@
+{
+  "total_applications": 10000,
+  "demographics": {
+    "age_groups": {
+      "36-50": 3439,
+      "26-35": 3025,
+      "51-65": 2031,
+      "18-25": 992,
+      "65+": 513
+    },
+    "genders": {
+      "Female": 5099,
+      "Male": 4901
+    },
+    "ethnicities": {
+      "White": 5959,
+      "Hispanic": 1797,
+      "Black": 1332,
+      "Asian": 614,
+      "Other": 298
+    }
+  },
+  "financial_summary": {
+    "avg_income": 74853,
+    "avg_credit_score": 716,
+    "avg_dti_ratio": 27.46
+  },
+  "fair_decisions": {
+    "approval_rate": 0.813,
+    "avg_interest_rate": 8.41
+  },
+  "bias_analysis": {
+    "biased_approval_rate": 0.655,
+    "approval_rate_male": 0.747,
+    "approval_rate_female": 0.567,
+    "disparate_impact": 0.759
+  },
+  "generation_timestamp": "2026-02-05T13:31:50.976583"
+}

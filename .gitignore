@@ -1,0 +1,44 @@
+# Python virtual environments
+rai-demos-env/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/settings.json
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Azure credentials (never commit)
+*.pem
+*.key
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+
+# Large data files (keep sample_data tracked)
+*.parquet

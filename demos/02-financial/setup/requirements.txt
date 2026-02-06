@@ -1,0 +1,46 @@
+# Python dependencies for Financial Loan Decision System Demo
+# Last Updated: July 2025 - Microsoft-only tools
+
+# Core Azure SDK
+azure-identity>=1.15.0
+azure-ai-ml>=1.13.0
+azureml-core>=1.54.0
+
+# Microsoft Responsible AI Tools
+fairlearn>=0.10.0
+shap>=0.44.0
+interpret>=0.6.0
+interpret-community>=0.31.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0,<2.4.0  # upper bound required by numba (SHAP dependency)
+scikit-learn>=1.3.0
+
+# Machine Learning
+xgboost>=2.0.0
+lightgbm>=4.1.0
+imbalanced-learn>=0.11.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Notebook & Utilities
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+tqdm>=4.66.0
+
+# Synthetic Data Generation
+faker>=22.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Model Interpretation (included above with shap and interpret)
+
+# Optional: Advanced Analytics
+scipy>=1.11.0
+statsmodels>=0.14.0

@@ -1,0 +1,25 @@
+# Azure AI Services
+openai==1.54.0
+azure-ai-contentsafety==1.0.0
+azure-ai-evaluation==1.0.0
+azure-identity==1.19.0
+
+# PII Detection and Anonymization
+presidio-analyzer==2.2.355
+presidio-anonymizer==2.2.355
+
+# Synthetic Data Generation
+faker==40.1.2
+
+# Data Processing and Analysis
+pandas>=2.1.0
+numpy>=1.24.0,<2.4.0  # upper bound required by numba (SHAP dependency in sibling demos)
+
+# Utilities
+python-dotenv==1.0.0
+jupyter==1.1.1
+ipykernel==7.1.0
+
+# Optional: Enhanced NLP for Presidio
+spacy==3.8.0
+# Run after install: python -m spacy download en_core_web_lg
